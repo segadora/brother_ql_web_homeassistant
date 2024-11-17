@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Brother QL Web add-on repository
+url: 'https://github.com/segadora/brother_ql_web_homeassistant'
+maintainer: Christoffer Nielsen <segadora93@gmail.com>

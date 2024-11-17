@@ -1,0 +1,27 @@
+---
+name: "Brother QL Web"
+description: "Interation with brother ql label printers"
+url: https://github.com/segadora/brother_ql_web_homeassistant
+version: "1.0.0"
+slug: "brother_ql_web"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: services
+ports:
+  8013/tcp: 8013
+options:
+  model: "QL-700"
+  device: "file:///dev/usb/lp0"
+  default_size: 29
+schema:
+  model: list(QL-500|QL-550|QL-560|QL-570|QL-580N|QL-650TD|QL-700|QL-710W|QL-720NW|QL-800|QL-810W|L-820NWB|QL-1050|QL-1060N|PT-P750W|PT-P900W)
+  device: str
+  default_size: int
+usb: true
+watchdog: http://[HOST]:[PORT:8013]/
+webui: http://[HOST]:[PORT:8013]/

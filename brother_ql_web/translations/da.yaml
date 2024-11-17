@@ -1,0 +1,13 @@
+---
+configuration:
+  model:
+    name: Model
+    description: >-
+      Din printer model
+  device:
+    name: Sti til enhed
+    description: >-
+      Dette er stien som api'et bruger til at kommunikere med printer.
+      Du kan bruge en fil reference eller en link reference (eksempelvis tcp://192.168.0.23:9100 eller file:///dev/usb/lp0)
+network:
+  8013/tcp: Port for webserver

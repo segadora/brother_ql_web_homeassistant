@@ -1,0 +1,28 @@
+{
+  "server": {
+    "port": 8013,
+    "host": "",
+    "log_level": "WARNING",
+    "additional_font_folder": ""
+  },
+  "printer": {
+    "model": "[MODEL]",
+    "printer": "[PRINTER]"
+  },
+  "label": {
+    "default_size": "[DEFAULT_SIZE]",
+    "default_orientation": "standard",
+    "default_font_size": 70,
+    "default_fonts": [
+      {"family": "Minion Pro",      "style": "Semibold"},
+      {"family": "Linux Libertine", "style": "Regular"},
+      {"family": "DejaVu Serif",    "style": "Book"}
+    ]
+  },
+  "website": {
+    "html_title": "Label Designer",
+    "page_title": "Brother QL Label Designer",
+    "page_headline": "Design your label and print it…"
+  }
+}
+
