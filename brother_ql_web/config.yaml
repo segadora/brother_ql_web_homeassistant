@@ -2,7 +2,7 @@
 name: "Brother QL Web"
 description: "Interation with brother ql label printers"
 url: https://github.com/segadora/brother_ql_web_homeassistant
-version: "1.0.0"
+version: "1.0.1"
 slug: "brother_ql_web"
 init: false
 arch:
